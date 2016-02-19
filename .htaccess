@@ -1,0 +1,5 @@
+#RewriteEngineOn
+#RewriteCond%{HTTPS}off
+#RewriteRule(.*)https://%{HTTP_HOST}%{REQUEST_URI}
+
+#php_flagzlib.output_compressionoff
